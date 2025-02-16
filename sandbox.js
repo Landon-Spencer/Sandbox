@@ -507,19 +507,21 @@
 // console.log(coordinates);
 // console.log(retrievePosition);
 
-class Classroom {
-  constructor(count) {
-      this.count = count;
-  };
-  addStudents(num) {
-      this.count += num;
-  };
-};
-const classOne = new Classroom(20);
-const classOneCopy = classOne;
-classOneCopy.addStudents(10);
-classOne.addStudents(5);
-classOne.addStudents(10);
-classOneCopy.addStudents(10);
+// class Classroom {
+//   constructor(count) {
+//       this.count = count;
+//   };
+//   addStudents(num) {
+//       this.count += num;
+//   };
+// };
+// const classOne = new Classroom(20);
+// const classOneCopy = classOne;
+// classOneCopy.addStudents(10);
+// classOne.addStudents(5);
+// classOne.addStudents(10);
+// classOneCopy.addStudents(10);
 
-console.log(classOne.count)
+// console.log(classOne.count)
+
+console.log('my Mac Mini is working');
